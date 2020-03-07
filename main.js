@@ -18,4 +18,10 @@ var numbers = [5, 8, 2, 4, 9, 3, 10, 1, 4];
 
 insertionSort(numbers);
 
-console.log(numbers);
+var result = "";
+
+for (var i = 0; i < numbers.length; i++) {
+	result += numbers[i] + " ";
+}
+
+console.log(result);
